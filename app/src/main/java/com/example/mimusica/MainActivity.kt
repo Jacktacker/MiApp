@@ -20,9 +20,9 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun IngresarOnclick(view: View)
+    fun IngresarOnClick(view: View)
     {
-        val intent = Intent(this, ListaActivity::class.java)
+        val intent = Intent(this, DetalleActivity::class.java)
         startActivity(intent)
     }
 }
